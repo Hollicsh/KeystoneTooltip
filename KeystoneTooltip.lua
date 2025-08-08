@@ -1,13 +1,13 @@
 local line_added = false
 local font_color = "|cffffffff"
-local dungeon_reward_string = "Dungeon Reward: "
-local dungeon_crest_reward_string = "Crest Reward: "
-local vault_reward_string = "Vault Reward: "
-local dungeon_item_level_table = { 639, 639, 642, 645, 649, 649, 652, 652, 655, 655, 655 }
-local dungeon_upgrade_track_table = { "Champion 2", "Champion 2", "Champion 3", "Champion 4", "Hero 1", "Hero 1", "Hero 2", "Hero 2", "Hero 3", "Hero 3", "Hero 3" }
-local dungeon_crest_table = { "10 Runed", "12 Runed", "14 Runed", "16 Runed", "18 Runed", "10 Gilded", "12 Gilded", "14 Gilded", "16 Gilded", "18 Gilded", "20 Gilded" }
-local vault_item_reward_table = { 649, 649, 652, 652, 655, 658, 658, 658, 662, 662, 662 }
-local vault_upgrade_track_table = { "Hero 1", "Hero 1", "Hero 2", "Hero 2", "Hero 3", "Hero 4", "Hero 4", "Hero 4", "Myth 1", "Myth 1", "Myth 1" }
+local dungeon_reward_string = "Награда за подземелье: "
+local dungeon_crest_reward_string = "Награда за гребни: "
+local vault_reward_string = "Награда в Великом Хранилище: "
+local dungeon_item_level_table = { 684, 684, 688, 691, 694, 694, 697, 697, 701, 701, 701 }
+local dungeon_upgrade_track_table = { "Защитник 2", "Защитник 2", "Защитник 3", "Защитник 4", "Герой 1", "Герой 1", "Герой 2", "Герой 2", "Герой 3", "Герой 3", "Герой 3" }
+local dungeon_crest_table = { "10 Рунических гребней", "12 Рунических гребней", "14 Рунических гребней", "16 Рунических гребней", "18 Рунических гребней", "10 Позолоченных гребней", "12 Позолоченных гребней", "14 Позолоченных гребней", "16 Позолоченных гребней", "18 Позолоченных гребней", "20 Позолоченных гребней" }
+local vault_item_reward_table = { 694, 694, 697, 697, 701, 704, 704, 704, 707, 707, 707 }
+local vault_upgrade_track_table = { "Герой 1", "Герой 1", "Герой 2", "Герой 2", "Герой 3", "Герой 4", "Герой 4", "Герой 4", "Легенда 1", "Легенда 1", "Легенда 1" }
 
 
 SLASH_KEYSTONETOOLTIP1 = "/kt"
